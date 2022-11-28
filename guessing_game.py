@@ -12,6 +12,8 @@ lets_continue = "yes"
 win = ""
 
 while lets_continue == "yes":
+    computer_number = random.randint(1, 100)            # random secret number between 1 to 100
+    print(computer_number)
     difficulty = input("Vyberte obtížnost. Napište 'easy' nebo 'hard':  ").lower()
     difficulty_list = {
         "easy": 10,
